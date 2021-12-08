@@ -1,0 +1,10 @@
+[package]
+name = "slick"
+version = "0.1.0"
+authors = ["TimUntersberger <timuntersberger2@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+wasm-bindgen = "0.2.78"
+web-sys = { version = "0.3.4", features = ["Document", "Element", "HtmlElement", "Node", "Window",
+"Text"] }
